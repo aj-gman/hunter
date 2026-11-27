@@ -917,6 +917,7 @@ module.exports = function(eleventyConfig) {
   userEleventySetup(eleventyConfig);
 
   return {
+    pathPrefix: "/hunter/",
     dir: {
       input: "src/site",
       output: "dist",
