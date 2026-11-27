@@ -469,6 +469,16 @@ module.exports = function(eleventyConfig) {
     return date && date.toISOString();
   });
 
+  eleventyConfig.addFilter("siteUrl", function (url) {
+    // Absolute URL of a site path. Works whether SITE_BASE_URL includes the
+    // SITE_BASE_PATH (".env") or not (CI workflow).
+    const { normalizeBasePath, withBasePath } = require("./src/helpers/sitePath");
+    let root = (process.env.SITE_BASE_URL || "").replace(/\/+$/, "");
+    const basePath = normalizeBasePath();
+    if (basePath && root.endsWith(basePath)) root = root.slice(0, -basePath.length);
+    return root + withBasePath(url ? "/" + String(url).replace(/^\/+/, "") : "/");
+  });
+
   eleventyConfig.addFilter("link", function(str) {
     return (
       str &&
@@ -907,6 +917,7 @@ module.exports = function(eleventyConfig) {
   userEleventySetup(eleventyConfig);
 
   return {
+    pathPrefix: "/hunter/",
     dir: {
       input: "src/site",
       output: "dist",
@@ -918,3 +929,4 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true,
   };
 };
+
