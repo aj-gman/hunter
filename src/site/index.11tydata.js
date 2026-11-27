@@ -1,4 +1,4 @@
-require("dotenv").config({ path: [".env", "site.env"] });
+require("dotenv").config();
 const path = require("path");
 const settings = require("../helpers/constants");
 const pluginLoader = require("../helpers/pluginLoader");
