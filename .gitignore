@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+src/site/styles/theme.*.css
+src/site/styles/_theme.*.css
+.idea/
+.vercel
+.cache
+_site/
+**/.DS_Store

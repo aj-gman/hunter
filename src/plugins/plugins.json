@@ -1,18 +1,31 @@
 {
   "version": 1,
   "plugins": {
-    "related-notes": {
-      "repo": "oleeskild/garden-plugin-related-notes",
-      "installedVersion": "1.0.0",
-      "installedRef": "v1.0.0",
-      "installedAt": "2026-11-27T15:01:01.042Z",
+    "image-lightbox": {
+      "repo": "oleeskild/garden-plugin-image-lightbox",
+      "installedVersion": "1.1.0",
+      "installedRef": "v1.1.0",
+      "installedAt": "2026-10-30T12:12:49.645Z",
       "enabled": true,
       "files": [
-        "src/plugins/related-notes/README.md",
-        "src/plugins/related-notes/garden-plugin.json",
-        "src/plugins/related-notes/index.js",
-        "src/plugins/related-notes/styles/related.scss",
-        "src/plugins/related-notes/templates/related.njk"
+        "src/plugins/image-lightbox/README.md",
+        "src/plugins/image-lightbox/garden-plugin.json",
+        "src/plugins/image-lightbox/styles/lightbox.scss",
+        "src/plugins/image-lightbox/templates/lightbox.njk"
+      ]
+    },
+    "recently-tended": {
+      "repo": "oleeskild/garden-plugin-recently-tended",
+      "installedVersion": "1.0.0",
+      "installedRef": "v1.0.0",
+      "installedAt": "2026-10-30T12:13:01.596Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/recently-tended/README.md",
+        "src/plugins/recently-tended/garden-plugin.json",
+        "src/plugins/recently-tended/index.js",
+        "src/plugins/recently-tended/styles/list.scss",
+        "src/plugins/recently-tended/templates/list.njk"
       ]
     },
     "resizable-panes": {
@@ -41,6 +54,42 @@
         "src/plugins/resizable-panes/tests/runtime.test.cjs"
       ]
     },
+    "tag-placement": {
+      "repo": "oleeskild/garden-plugin-tag-placement",
+      "installedVersion": "1.2.0",
+      "installedRef": "v1.2.0",
+      "installedAt": "2026-11-27T15:01:38.864Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/tag-placement/README.md",
+        "src/plugins/tag-placement/garden-plugin.json",
+        "src/plugins/tag-placement/screenshot.png",
+        "src/plugins/tag-placement/templates/bottom-tags.njk",
+        "src/plugins/tag-placement/templates/style.njk"
+      ]
+    },
+    "dg-timestamps": {
+      "settings": {
+        "showCreated": false,
+        "showUpdated": true,
+        "timestampFormat": "MMM dd, yyyy h:mm a",
+        "dateFormat": "MMM dd, yyyy"
+      }
+    },
+    "related-notes": {
+      "repo": "oleeskild/garden-plugin-related-notes",
+      "installedVersion": "1.0.0",
+      "installedRef": "v1.0.0",
+      "installedAt": "2026-11-27T15:01:01.042Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/related-notes/README.md",
+        "src/plugins/related-notes/garden-plugin.json",
+        "src/plugins/related-notes/index.js",
+        "src/plugins/related-notes/styles/related.scss",
+        "src/plugins/related-notes/templates/related.njk"
+      ]
+    },
     "sidebar-controls": {
       "repo": "oleeskild/garden-plugin-sidebar-controls",
       "installedVersion": "1.0.0",
@@ -55,20 +104,6 @@
         "src/plugins/sidebar-controls/templates/floating.njk",
         "src/plugins/sidebar-controls/templates/footer.njk",
         "src/plugins/sidebar-controls/templates/head.njk"
-      ]
-    },
-    "tag-placement": {
-      "repo": "oleeskild/garden-plugin-tag-placement",
-      "installedVersion": "1.2.0",
-      "installedRef": "v1.2.0",
-      "installedAt": "2026-11-27T15:01:38.864Z",
-      "enabled": true,
-      "files": [
-        "src/plugins/tag-placement/README.md",
-        "src/plugins/tag-placement/garden-plugin.json",
-        "src/plugins/tag-placement/screenshot.png",
-        "src/plugins/tag-placement/templates/bottom-tags.njk",
-        "src/plugins/tag-placement/templates/style.njk"
       ]
     }
   }
