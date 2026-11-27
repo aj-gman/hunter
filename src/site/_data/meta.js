@@ -1,4 +1,4 @@
-require("dotenv").config({ path: [".env", "site.env"] });
+require("dotenv").config();
 const { globSync } = require("glob");
 
 module.exports = async (data) => {
