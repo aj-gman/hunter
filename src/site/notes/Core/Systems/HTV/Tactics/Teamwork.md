@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"permalink":"/core/systems/htv/tactics/teamwork/","dg-note-properties":{}}
+---
+
+#tactics are a type of teamwork that is written in the [[Core/Systems/HTV/Hunter The Vigil\|Hunter The Vigil]] book.
+
+When two or more hunters work together on a single action of any kind, one person takes the lead. He’s the primary actor, and his player assembles his dice pool as normal. Anyone assisting him is a secondary actor, and rolls the same pool before the primary actor does. Secondary Actor Roll Results Success: +1 die to the primary actor’s roll for each success earned, cumulative for each secondary actor’s success. Exceptional Success: As success. Failure: Primary actor receives no bonus dice. Dramatic Failure: As failure, and –4 dice to the primary actor’s roll, cumulative for each secondary actor’s dramatic failure. Primary actor must continue. The primary actor’s roll results are as normal for the action the group undertakes, except that hunters always win ties on contested actions when they use teamwork. More participants don’t always mean better results, however. Every action has a point of diminishing returns at which too many cooks are in the kitchen. This number usually ranges from three to six, depending on the action, at the Storyteller’s discretion. Excess participants’ rolls grant no bonuses to the primary actor’s pool, and may levy penalties instead at the Storyteller’s discretion.
