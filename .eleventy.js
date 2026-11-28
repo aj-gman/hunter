@@ -809,6 +809,21 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  // Evidence board home page: the board markup is generated at build time
+  // from the published notes (see generate-board.js), so new, renamed, moved
+  // or deleted pages update the board on every build. Registered before
+  // htmlMinifier so the mount marker in The Board.md is still intact.
+  eleventyConfig.addTransform("evidence-board", function (content) {
+    const mountRe = /<div\s+id="board-mount"[^>]*>\s*<\/div>/;
+    if (this.page && this.page.url === "/" && mountRe.test(content)) {
+      return content.replace(
+        mountRe,
+        require("./generate-board").generateBoardMarkup()
+      );
+    }
+    return content;
+  });
+
   eleventyConfig.addTransform("htmlMinifier", async function(content) {
     if (
       (process.env.NODE_ENV === "production" || process.env.ELEVENTY_ENV === "prod") &&
