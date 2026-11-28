@@ -566,3 +566,19 @@ body {
   
 }
 #evidence-board .attrib { position: absolute; right: 14px; bottom: 10px; font-size: 10px; color: rgba(180,168,140,.5); z-index: 1; }
+
+/* Board isolation: keep the evidence board's own typography and controls
+   unaffected by theme (ITS) rules for headings, paragraphs and buttons. */
+#evidence-board #masthead h1 { font-family: 'Special Elite', 'Courier New', monospace; font-weight: 400; font-style: normal; font-variant: normal; text-transform: none; border: 0; padding: 0; line-height: normal; letter-spacing: 3px; }
+#evidence-board #masthead p { font-family: 'Special Elite', 'Courier New', monospace; font-size: 14px; line-height: normal; text-align: left; text-indent: 0; hyphens: manual; }
+#evidence-board #controls button, #evidence-board #bigpic { font-family: 'Special Elite', 'Courier New', monospace; border-radius: 0; box-shadow: none; font-weight: 400; text-transform: none; height: auto; line-height: normal; }
+#evidence-board #legend { font-family: 'Special Elite', 'Courier New', monospace; line-height: normal; text-align: left; }
+#evidence-board #legend b { font-weight: 700; }
+
+/* Site main color #4A6B62 for the ITS accent-color setting (kept here, not in
+   .env, because the Digital Garden plugin rewrites .env on every publish). */
+body.css-settings-manager,
+body.theme-light.css-settings-manager,
+body.theme-dark.css-settings-manager { --accent-h: 163.6; --accent-s: 18.2%; --accent-l: 35.5%; }
+#evidence-board #masthead h1 { border-bottom: 0 !important; box-shadow: none !important; background: none !important; }
+#evidence-board #masthead h1::before, #evidence-board #masthead h1::after { content: none !important; display: none !important; }
