@@ -6,6 +6,8 @@ Hunter: The Vigil is a tabletop role-playing game made by Onyx Path (Curseborne,
 
 Hunters are underdogs who never stop feeling that chill running up and down their spines. For every bloodsucker they put down, for every haunted house they clear out, another horror lies waiting to strike. Sure, they might make sacrifices or suffer losses along the way, but to them there’s never a time when they’re not hunting. Either they stay sharp and focused, they **become hunted themselves,** or worse: **They become the monster.**
 
+![PIC-HTVLogo.png\|418](/img/user/Pictures/PIC-HTVLogo.png)
+
 ## Index
 - p. 69 - p. 72; Character Creation
 - p. 72; XP and [[Core/Systems/HTV/Advancement\|Advancement]]
