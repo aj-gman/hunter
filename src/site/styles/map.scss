@@ -1,0 +1,30 @@
+html, body { margin: 0; height: 100%; background: #1a1a1a; }
+#map { height: 100%; width: 100%; background: #1a1a1a; }
+/* dark look via filter on standard tiles, no tile API key needed */
+.leaflet-tile-pane { filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7); }
+.leaflet-control-attribution { background: rgba(26,26,26,0.85) !important; color: #aaa !important; }
+.leaflet-control-attribution a { color: #d7a1a1 !important; }
+.rome-pin { background: #4A6B62; border: 2px solid #e8e0d0; border-radius: 50%; box-shadow: 0 0 6px rgba(0,0,0,.7); box-sizing: border-box; color: #fff; display: flex; align-items: center; justify-content: center; }
+
+.pin-form select { font: inherit; padding: 4px; background: #111; color: #e8e0d0; border: 1px solid #555; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #232323; color: #e8e0d0; border-radius: 2px; }
+.leaflet-popup-content p { margin: 4px 0; }
+.leaflet-popup-content a { color: #d7a1a1; }
+#edit-bar { position: fixed; top: 10px; left: 56px; right: 10px; z-index: 1000; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; background: rgba(26,26,26,.92); color: #e8e0d0; padding: 6px 8px; font: 13px sans-serif; border: 1px solid #4A6B62; }
+#edit-bar span { margin-right: auto; }
+#edit-bar button, .pin-form button { background: #4A6B62; color: #fff; border: 0; padding: 6px 10px; cursor: pointer; font: inherit; }
+#edit-bar button.on { background: #b5651d; }
+.pin-form { display: flex; flex-direction: column; gap: 6px; min-width: 200px; }
+.pin-form input, .pin-form textarea { font: inherit; padding: 4px; background: #111; color: #e8e0d0; border: 1px solid #555; }
+.edit-help { flex-basis: 100%; font-size: 12px; color: #b9b19f; }
+@media (max-width: 600px) {
+  #edit-bar { left: 52px; right: 6px; top: 6px; gap: 4px; padding: 4px; font-size: 11px; }
+  #edit-bar button { padding: 5px 7px; }
+  .edit-help { font-size: 10px; }
+  .leaflet-popup-content { margin: 10px; }
+}
+.vertex { background: #e8e0d0; border: 2px solid #232323; border-radius: 50%; box-sizing: border-box; cursor: move; }
+.vertex.mid { background: rgba(232,224,208,.45); border-width: 1px; cursor: copy; }
+.leaflet-tooltip { background: #232323; color: #e8e0d0; border: 1px solid #555; }
+.leaflet-popup-content strong, .leaflet-popup-content a { display: block; }
+.leaflet-interactive:focus { outline: none; }
