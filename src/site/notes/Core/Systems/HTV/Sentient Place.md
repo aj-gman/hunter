@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Sentient Place.md","permalink":"/rules/sentient-place/","tags":["#location","#htv"],"noteIcon":"","dg-note-properties":{"tags":["#location","#htv"]}}
+{"dg-publish":true,"dg-path":"Rules/Sentient Place.md","permalink":"/rules/sentient-place/","tags":["#location","#htv"],"dg-note-properties":{"tags":["#location","#htv"]}}
 ---
 
 A specific type of #location  in [[Core/Systems/HTV/Hunter (HUB)\|Hunter (HUB)]] #htv.

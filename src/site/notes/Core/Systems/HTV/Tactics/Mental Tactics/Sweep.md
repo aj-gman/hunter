@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Sweep.md","permalink":"/rules/tactics/mental-tactics/sweep/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Sweep.md","permalink":"/rules/tactics/mental-tactics/sweep/","dg-note-properties":{}}
 ---
 
 #tactics  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Bygone.md","permalink":"/rules/bygone/","tags":["#htv"],"noteIcon":"","dg-note-properties":{"tags":["#htv"]}}
+{"dg-publish":true,"dg-path":"Rules/Bygone.md","permalink":"/rules/bygone/","tags":["#htv"],"dg-note-properties":{"tags":["#htv"]}}
 ---
 
 Some physical objects may radiate with a supernatural taint. #htv

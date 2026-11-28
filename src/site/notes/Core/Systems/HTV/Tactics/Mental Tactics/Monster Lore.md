@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Monster Lore.md","permalink":"/rules/tactics/mental-tactics/monster-lore/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Monster Lore.md","permalink":"/rules/tactics/mental-tactics/monster-lore/","dg-note-properties":{}}
 ---
 
 #tactics 

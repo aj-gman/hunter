@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Tactics/Teamwork.md","permalink":"/rules/tactics/teamwork/","tags":["#tactics"],"noteIcon":"","dg-note-properties":{"tags":["#tactics"]}}
+{"dg-publish":true,"dg-path":"Rules/Tactics/Teamwork.md","permalink":"/rules/tactics/teamwork/","tags":["#tactics"],"dg-note-properties":{"tags":["#tactics"]}}
 ---
 
 #tactics are a type of teamwork that is written in the [[Core/Systems/HTV/Hunter (HUB)\|Hunter (HUB)]] book.

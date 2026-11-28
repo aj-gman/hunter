@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Hunter (HUB).md","permalink":"/rules/hunter-hub/","tags":["#htv","#endowment","#tactics","#cell","#compact","#conspiracy"],"noteIcon":"","dg-note-properties":{"tags":["#htv","#endowment","#tactics","#cell","#compact","#conspiracy"]}}
+{"dg-publish":true,"dg-path":"Rules/Hunter (HUB).md","permalink":"/rules/hunter-hub/","tags":["#htv","#endowment","#tactics","#cell","#compact","#conspiracy"],"dg-note-properties":{"tags":["#htv","#endowment","#tactics","#cell","#compact","#conspiracy"]}}
 ---
-
-#htv
 
 Hunter: The Vigil is a tabletop role-playing game made by Onyx Path (Curseborne, VTR). It's Second Edition was published in 2022. The premise sees the player characters, lone hunters gathered in a cell, going up against monsters of all kinds, learning and cataloguing them and hopefully surviving the encounters.
 

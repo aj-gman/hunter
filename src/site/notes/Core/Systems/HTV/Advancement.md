@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Advancement.md","permalink":"/rules/advancement/","tags":["#htv"],"noteIcon":"","dg-note-properties":{"tags":["#htv"]}}
+{"dg-publish":true,"dg-path":"Rules/Advancement.md","permalink":"/rules/advancement/","tags":["#htv"],"dg-note-properties":{"tags":["#htv"]}}
 ---
 
 #htv

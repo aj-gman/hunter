@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Condition.md","permalink":"/rules/condition/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Condition.md","permalink":"/rules/condition/","dg-note-properties":{}}
 ---
 
 #htv #vtr

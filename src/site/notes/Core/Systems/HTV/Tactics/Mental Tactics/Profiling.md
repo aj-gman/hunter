@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Profiling.md","permalink":"/rules/tactics/mental-tactics/profiling/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Profiling.md","permalink":"/rules/tactics/mental-tactics/profiling/","dg-note-properties":{}}
 ---
 
 #tactics  
