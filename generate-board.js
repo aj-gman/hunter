@@ -165,23 +165,11 @@ function buildGraph(notes) {
 }
 
 // ---------- 3. groups (folders) ----------
-// A note joins the folder it sits in; a folder whose own name contains its
-// parent folder's name (e.g. "Mental Tactics" under "Tactics") rolls up into
-// that parent, so sub-categories stay inside their category on the board.
-function words(s) {
-  return s.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
-}
+// A note joins the folder it sits in. Sub-folders (e.g. "Mental Tactics" under
+// "Tactics") stay their own groups so the board can show them under their parent.
 function groupDirOf(relDir) {
-  const parts = relDir.split("/").filter(Boolean);
-  if (!parts.length) return "";
-  let i = parts.length - 1;
-  while (i > 0) {
-    const child = new Set(words(parts[i]));
-    const parent = words(parts[i - 1]);
-    if (parent.length && parent.every((w) => child.has(w))) i--;
-    else break;
-  }
-  return parts.slice(0, i + 1).join("/");
+  // Every folder is its own group; the board script nests a group under its nearest parent group.
+  return relDir.split("/").filter(Boolean).join("/");
 }
 function groupLabel(dir) {
   if (GROUP_LABELS[dir]) return GROUP_LABELS[dir];
@@ -564,7 +552,7 @@ function generateBoardMarkup() {
     <p>Every note in the case file, arranged by how the pages connect. Red strings link pages that reference each other; the thicker the string, the stronger the tie.</p>
     <div class="stamp">OPEN CASE</div>
   </div>
-  <svg id="strings" data-strong="${strong}" data-total="${total}">${svg.join("")}</svg>
+  <svg id="strings" class="all" data-strong="${strong}" data-total="${total}">${svg.join("")}</svg>
   ${labels.join("")}
   ${cards.join("")}
 </div></div>
@@ -572,10 +560,10 @@ function generateBoardMarkup() {
   <button onclick="zoom(1.25)">+</button>
   <button onclick="zoom(0.8)">−</button>
   <button onclick="fit()">Fit</button>
-  <button onclick="toggleAll(this)">All wires (${total})</button>
+  <button onclick="toggleAll(this)">Strong ties only (${strong})</button>
 </div>
 <button id="bigpic" onclick="bigPicture()">Bigger picture</button>
-<div id="legend"><b>${nodes.length} notes · ${total} links.</b> Hover a note to see only its wires. Click opens the page on the site. Wire thickness = link strength. On load you see only the strong ties (${strong} of ${total}). Click a folder label to zoom into its pages.</div>`;
+<div id="legend"><b>${nodes.length} notes · ${total} links.</b> Hover a note to see only its wires. Click opens the page on the site. Wire thickness = link strength. All wires are shown on load; the button hides the weaker ones. Click a folder label to zoom into its pages.</div>`;
 }
 
 module.exports = { generateBoardMarkup };
