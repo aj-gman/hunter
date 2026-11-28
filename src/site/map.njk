@@ -1,0 +1,20 @@
+---
+permalink: /map/
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rome map</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/styles/map.css">
+</head>
+<body>
+<div id="map"></div>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>window.ROME_PINS = {{ romePins | dump | replace("<","\\u003c") | safe }};</script>
+<script src="/scripts/rome-map.js"></script>
+</body>
+</html>
