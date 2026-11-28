@@ -1,0 +1,36 @@
+---
+permalink: /sheet/
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hunter: The Vigil Character Sheet</title>
+<link rel="stylesheet" href="/styles/hunter-sheet.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">HUNTER <small>THE VIGIL 2E</small> <span class="ver">v0.1</span></div>
+  <div class="actions">
+    <button class="btn" id="btn-load" type="button">Load</button>
+    <button class="btn primary" id="btn-save" type="button">Save</button>
+    <button class="btn" id="btn-new" type="button">New</button>
+    <span id="edit-status" role="status"></span>
+    <span id="io-status" role="status"></span>
+    <input type="file" id="importFile" accept=".json,application/json" hidden>
+  </div>
+</div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="dialog"><h2 id="modal-title">Storage</h2>
+    <button class="btn primary" id="m-cloud" type="button"></button>
+    <button class="btn" id="m-json" type="button"></button>
+    <button class="btn danger" id="m-cancel" type="button">Cancel</button>
+  </div>
+</div>
+<main id="sheet"></main>
+<script src="/sheet-config.js"></script>
+<script src="/scripts/hunter-sheet.js"></script>
+</body>
+</html>
