@@ -1,0 +1,431 @@
+{
+  "format": "hunter-vigil-2e-sheet",
+  "version": 1,
+  "header": {
+    "name": "Test Dummy (delete me)"
+  },
+  "attributes": {
+    "Intelligence": 1,
+    "Wits": 1,
+    "Resolve": 1,
+    "Strength": 1,
+    "Dexterity": 1,
+    "Stamina": 1,
+    "Presence": 1,
+    "Manipulation": 1,
+    "Composure": 1
+  },
+  "skills": {
+    "Academics": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Computer": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Crafts": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Investigation": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Medicine": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Occult": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Politics": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Science": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Athletics": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Brawl": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Drive": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Firearms": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Larceny": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Stealth": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Survival": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Weaponry": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Animal Ken": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Empathy": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Expression": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Intimidation": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Persuasion": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Socialize": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Streetwise": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    },
+    "Subterfuge": {
+      "dots": 0,
+      "spec": false,
+      "specialty": ""
+    }
+  },
+  "merits": [
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    }
+  ],
+  "aspirations": [
+    "",
+    "",
+    ""
+  ],
+  "conditions": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "touchstones": [
+    "",
+    ""
+  ],
+  "code": [
+    "",
+    "",
+    ""
+  ],
+  "health": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "willpowerSpent": 0,
+  "willpowerRisked": false,
+  "integrity": {
+    "value": 7,
+    "notes": {}
+  },
+  "stats": {},
+  "beats": 0,
+  "groupBeats": 0,
+  "endowments": [
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    },
+    {
+      "name": "",
+      "dots": 0
+    }
+  ],
+  "tactics": [
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    },
+    {
+      "name": "",
+      "pool": "",
+      "desc": ""
+    }
+  ],
+  "weapons": [
+    {
+      "name": "",
+      "damage": "",
+      "range": "",
+      "clip": "",
+      "size": "",
+      "strength": "",
+      "cost": ""
+    },
+    {
+      "name": "",
+      "damage": "",
+      "range": "",
+      "clip": "",
+      "size": "",
+      "strength": "",
+      "cost": ""
+    },
+    {
+      "name": "",
+      "damage": "",
+      "range": "",
+      "clip": "",
+      "size": "",
+      "strength": "",
+      "cost": ""
+    },
+    {
+      "name": "",
+      "damage": "",
+      "range": "",
+      "clip": "",
+      "size": "",
+      "strength": "",
+      "cost": ""
+    },
+    {
+      "name": "",
+      "damage": "",
+      "range": "",
+      "clip": "",
+      "size": "",
+      "strength": "",
+      "cost": ""
+    }
+  ],
+  "armor": {},
+  "expandedMerits": {},
+  "equipment": [
+    {
+      "name": "",
+      "durability": "",
+      "structure": "",
+      "size": "",
+      "cost": "",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "durability": "",
+      "structure": "",
+      "size": "",
+      "cost": "",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "durability": "",
+      "structure": "",
+      "size": "",
+      "cost": "",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "durability": "",
+      "structure": "",
+      "size": "",
+      "cost": "",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "durability": "",
+      "structure": "",
+      "size": "",
+      "cost": "",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "durability": "",
+      "structure": "",
+      "size": "",
+      "cost": "",
+      "notes": ""
+    }
+  ],
+  "safehouse": [
+    {
+      "location": "",
+      "desc": ""
+    },
+    {
+      "location": "",
+      "desc": ""
+    },
+    {
+      "location": "",
+      "desc": ""
+    },
+    {
+      "location": "",
+      "desc": ""
+    }
+  ],
+  "history": "",
+  "goals": "",
+  "description": {},
+  "notes": "",
+  "cellChart": "",
+  "sketch": ""
+}
