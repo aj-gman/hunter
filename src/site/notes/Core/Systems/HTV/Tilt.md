@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/core/systems/htv/tilt/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Tilt.md","permalink":"/rules/tilt/","noteIcon":"","dg-note-properties":{}}
 ---
 
 #htv #vtr 

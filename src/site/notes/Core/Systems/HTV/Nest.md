@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/core/systems/htv/nest/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Nest.md","permalink":"/rules/nest/","tags":["#location","#htv"],"noteIcon":"","dg-note-properties":{"tags":["#location","#htv"]}}
 ---
 
-A specific type of #location  in [[Core/Systems/HTV/Hunter The Vigil\|Hunter The Vigil]] #htv.
+A specific type of #location  in [[Core/Systems/HTV/Hunter (HUB)\|Hunter (HUB)]] #htv.
 
 Nests are the homes and lairs of monsters. A nest is defined and shaped by the monster using it. Typically, a nest is a mundane, perhaps abandoned location with features that suit the monster’s needs. It is possible the nest itself is supernatural, either twisted by the monster or it already was prior to occupation. What makes it a nest, however, is that the creature rests, recuperates, feeds, hides, etc. in this specific location. In other words, a nest is where the monster feels safe — which means that, for hunters, it is very, very dangerous.
 

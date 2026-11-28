@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/core/systems/htv/endowments/setto/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Endowments/Setto.md","permalink":"/rules/endowments/setto/","noteIcon":"","dg-note-properties":{}}
 ---
 
 #htv #endowment 

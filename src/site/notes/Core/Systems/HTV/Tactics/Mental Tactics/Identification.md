@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/core/systems/htv/tactics/mental-tactics/identification/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Tactics/Mental Tactics/Identification.md","permalink":"/rules/tactics/mental-tactics/identification/","noteIcon":"","dg-note-properties":{}}
 ---
 
 #tactics 

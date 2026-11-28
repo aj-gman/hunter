@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/core/systems/htv/bygone/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rules/Bygone.md","permalink":"/rules/bygone/","tags":["#htv"],"noteIcon":"","dg-note-properties":{"tags":["#htv"]}}
 ---
 
 Some physical objects may radiate with a supernatural taint. #htv
 
-This type of object, called a [[Core/Systems/HTV/Bygone\|Bygone]], is a rare and unusual find. In [[Core/Systems/HTV/Hunter The Vigil\|Hunter The Vigil]], a [[Core/Systems/HTV/Bygone\|Bygone]] may be found in a mysterious place, and is further defined as an object of a reasonable (and manageable) size that possesses strange abilities. An eerie crypt is not a Bygone, for example, but an urn found inside might be. 
+This type of object, called a [[Core/Systems/HTV/Bygone\|Bygone]], is a rare and unusual find. In [[Core/Systems/HTV/Hunter (HUB)\|Hunter (HUB)]], a [[Core/Systems/HTV/Bygone\|Bygone]] may be found in a mysterious place, and is further defined as an object of a reasonable (and manageable) size that possesses strange abilities. An eerie crypt is not a Bygone, for example, but an urn found inside might be. 
 
 Bygones fall into one of three types: temporary, semi-permanent, or true.
 
