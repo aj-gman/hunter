@@ -1,0 +1,8 @@
+---
+permalink: /sheet-config.js
+eleventyExcludeFromCollections: true
+---
+// Generated from src/site/sheet-config.njk. Cloud-save API base for the Hunter
+// character sheet, supplied by the deployment (SHEET_API_BASE). Empty means
+// cloud save is not set up and the sheet offers JSON only.
+window.HUNTER_API_BASE = {{ sheetApiBase | jsonify | safe }};
