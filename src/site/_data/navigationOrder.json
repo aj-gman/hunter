@@ -1,1 +1,75 @@
-{}
+{
+  "/": [
+    "Rome",
+    "Core",
+    "Lore",
+    "Rules"
+  ],
+  "/Rome": [
+    "Campaigns",
+    "Rome"
+  ],
+  "/Rome/Campaigns": [
+    "NO GODS, NO MASTERS"
+  ],
+  "/Core": [
+    "Lore (Vampire)"
+  ],
+  "/Core/Lore (Vampire)": [
+    "Vampire"
+  ],
+  "/Lore": [
+    "Organizations"
+  ],
+  "/Lore/Organizations": [
+    "Cells",
+    "Compacts",
+    "Conspiracies"
+  ],
+  "/Lore/Organizations/Cells": [
+    "Cell",
+    "Our Hunters"
+  ],
+  "/Lore/Organizations/Compacts": [
+    "Compact",
+    "Network Zero",
+    "Utopia Now"
+  ],
+  "/Lore/Organizations/Conspiracies": [
+    "Ascelpion",
+    "Cainite Heresy",
+    "Cheiron Group",
+    "Conspiracy",
+    "Enigmatics",
+    "Hototogisu",
+    "Knights of Saint George",
+    "Malleus Maleficarum",
+    "VALKYRIE"
+  ],
+  "/Rules": [
+    "Endowments",
+    "Tactics",
+    "Advancement",
+    "Bygone",
+    "Condition",
+    "Dread Power",
+    "Hunter (HUB)",
+    "Nest",
+    "Sentient Place",
+    "Tainted Place",
+    "Tilt"
+  ],
+  "/Rules/Endowments": [
+    "Setto"
+  ],
+  "/Rules/Tactics": [
+    "Mental Tactics",
+    "Teamwork"
+  ],
+  "/Rules/Tactics/Mental Tactics": [
+    "Identification",
+    "Monster Lore",
+    "Profiling",
+    "Sweep"
+  ]
+}
