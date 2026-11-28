@@ -47,6 +47,7 @@
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 
 <link href="/styles/custom-style.css" rel="stylesheet">
+<script defer src="/scripts/noise.js"></script>
 {#- Plugin styles load before user styles so user CSS keeps the last word -#}
 {%- for style in plugins.styles -%}
 <link href="{{style}}?v={{meta.buildDate|isoDate}}" rel="stylesheet">
